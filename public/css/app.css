@@ -1,0 +1,35 @@
+:root{
+    --app-font: 'Montserrat', sans-serif;
+}
+body{
+    font-family: var(--app-font) !important;
+}
+.swal2-popup {
+    color: var(--bs-light) !important;
+    padding: .5em !important;
+}
+.error .swal2-popup{
+    background: var(--bs-danger) !important;
+}
+.success .swal2-popup{
+    background: var(--bs-success) !important;
+}
+.warning .swal2-popup{
+    background: var(--bs-warning) !important;
+}
+button.swal2-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: var(--bs-light) !important;
+}
+h2#swal2-title {
+    font-weight: 400;
+}
+div#swal2-html-container {
+    font-weight: 200;
+}
+.auth-box{
+    max-width: 360px;
+}
+
